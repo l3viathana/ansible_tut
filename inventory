@@ -1,5 +1,4 @@
 [targets]
-localhost ansible_connection=local
 192.168.178.67 ansible_connection=ssh ansible_port=10022 ansible_user=srv_1
 192.168.178.68 ansible_connection=ssh ansible_port=10022 ansible_user=srv_2
 
