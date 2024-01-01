@@ -8,4 +8,7 @@
 192.168.178.68 ansible_connection=ssh ansible_port=10022 ansible_user=srv_2 apache_package=apache2 php_package=libapache2-mod-php
 
 [file_servers]
-192.168.178.68 absible_connection=ssh ansible_port=10022 ansible_user=srv_2
+192.168.178.68 ansible_connection=ssh ansible_port=10022 ansible_user=srv_2
+
+[workstations]
+192.168.178.66 ansible_connection=ssh ansible_port=10022 ansible_user=ch
